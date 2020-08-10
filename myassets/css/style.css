@@ -1,0 +1,60 @@
+.navbar {
+    padding: 30px 20px;
+    border-bottom: black 2px solid;
+}
+
+.navbar ul li a {
+    background: whitesmoke;
+    color: black;
+    transition: ease-in-out .2s;
+}
+
+.navbar ul li :hover {
+    background: black;
+    color: whitesmoke;
+    transition: ease-in-out .2s;
+}
+
+.navbar-brand {
+    margin-right: 20%;
+}
+
+
+/* The animation code */
+
+@keyframes example {
+    from {
+        background-position: 40px 0px;
+        opacity: 0;
+    }
+    to {
+        background-position: 10px -100px;
+        opacity: 1;
+    }
+}
+
+.welcome {
+    background-image: url('../images/welcome.jpg');
+    background-size: cover;
+    background-position: 10px -100px;
+    background-repeat: no-repeat;
+    /* transition: ease-in-out .5s; */
+    /*Animation alternative*/
+    animation-name: example;
+    animation-duration: 1.4s;
+    height: 500px;
+    border-bottom: 2px solid black;
+}
+
+.actionbutton {
+    padding: 10px;
+    border-radius: 0;
+    background: rgb(34, 34, 34);
+    transition: ease-in-out .2s;
+}
+
+.actionbutton:hover {
+    background: black;
+    transform: translateX(20px);
+    transition: ease-in-out .2s;
+}
