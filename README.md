@@ -4,3 +4,8 @@
 - Install Bootstrap 
 - npm install bootstrap
 
+> Step 2
+-Design bootstrap components
+-used images from pexels.com
+-icons from iconfinde.com
+-illustrations from undraw.com
