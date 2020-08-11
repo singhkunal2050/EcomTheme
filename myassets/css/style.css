@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     font-family: sans-serif;
 }
@@ -23,6 +24,11 @@
 
 .navbar-brand {
     margin-right: 20%;
+}
+
+.navbar-brand strong {
+    margin-right: 20%;
+    font-family: 'Pacifico', cursive;
 }
 
 .icon {
@@ -96,13 +102,11 @@
         transition: ease-in-out;
     }
     50% {
-        box-shadow: 5px 5px 40px #8b59ff;
-        transform: translateX(10px);
+        transform: translateX(1000px);
         transition: ease-in-out;
     }
     100% {
         transform: translateX(0);
-        transition: ease-in-out;
     }
 }
 
@@ -113,9 +117,15 @@
     box-shadow: 10px 10px 20px grey;
     animation-name: shuffle;
     animation-duration: 1.4s;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
     height: 400px;
     width: 500px;
+    box-shadow: 1px 1px 40px #8b59ff5d;
+}
+
+.child img:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
 }
 
 .illus {
