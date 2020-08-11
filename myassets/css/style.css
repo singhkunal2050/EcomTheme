@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    font-family: sans-serif;
+}
+
 .navbar {
     padding: 30px 20px;
     /* border-bottom: black 2px solid; */
@@ -56,8 +61,10 @@
     animation-name: example;
     animation-duration: 1.4s;
     height: 500px;
-    border-bottom: 2px solid black;
     margin-top: 108px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 45px grey;
+    z-index: 0;
 }
 
 .actionbutton {
@@ -78,13 +85,39 @@
 
 .parent {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.child {
-    /* margin: 10px; */
+@keyframes shuffle {
+    0% {
+        transform: translateX(0);
+        transition: ease-in-out;
+    }
+    50% {
+        box-shadow: 5px 5px 40px #8b59ff;
+        transform: translateX(10px);
+        transition: ease-in-out;
+    }
+    100% {
+        transform: translateX(0);
+        transition: ease-in-out;
+    }
+}
+
+.child img {
+    margin: 10px;
     height: 400px;
-    width: 100px;
-    border: 2px solid black;
+    padding-bottom: 60px;
+    box-shadow: 10px 10px 20px grey;
+    animation-name: shuffle;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    height: 400px;
+    width: 500px;
+}
+
+.illus {
+    padding-top: 40px;
 }
