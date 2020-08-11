@@ -1,22 +1,31 @@
 .navbar {
     padding: 30px 20px;
-    border-bottom: black 2px solid;
+    /* border-bottom: black 2px solid; */
+    box-shadow: 5px 5px 15px grey;
 }
 
 .navbar ul li a {
-    background: whitesmoke;
+    border-bottom: 2px solid rgb(211, 211, 211);
     color: black;
     transition: ease-in-out .2s;
 }
 
 .navbar ul li :hover {
-    background: black;
-    color: whitesmoke;
+    /* background: black; */
+    border-bottom: 2px solid black;
     transition: ease-in-out .2s;
 }
 
 .navbar-brand {
     margin-right: 20%;
+}
+
+.icon {
+    height: 20px;
+}
+
+.current {
+    font-weight: bold;
 }
 
 
@@ -44,6 +53,7 @@
     animation-duration: 1.4s;
     height: 500px;
     border-bottom: 2px solid black;
+    margin-top: 108px;
 }
 
 .actionbutton {
@@ -51,6 +61,7 @@
     border-radius: 0;
     background: rgb(34, 34, 34);
     transition: ease-in-out .2s;
+    border: 0;
 }
 
 .actionbutton:hover {
