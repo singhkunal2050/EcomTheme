@@ -9,3 +9,6 @@
 - used images from pexels.com
 - icons from iconfinde.com
 - illustrations from undraw.com
+
+> Step 3
+- Use Animate.js for adding animations in containers and divisions
