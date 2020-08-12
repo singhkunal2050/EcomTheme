@@ -329,3 +329,34 @@ body {
     width: 100%;
     height: 500px;
 }
+
+/*----------------------------banner------------------*/
+
+
+.banner{
+    display: flex;
+    justify-content: stretch;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.banner-details{
+    background: rgb(92, 92, 92);
+    flex-grow: 1;
+}
+
+
+.banner-image{
+    width: 500px;
+    height: 400px;
+    flex-grow: 3;
+    background-image: url('../images/products/phone1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px -60px;
+}
+
+.banner-image img{
+    width: 100%;
+    height: 110%;
+}
