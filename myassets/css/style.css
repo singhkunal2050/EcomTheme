@@ -278,8 +278,11 @@ body {
 .product:hover img {
     transform: scale(1.5);
     transition: ease-in-out .3s;
-
 }
+.product:hover {
+    height: 310px;
+}
+
 
 .product-title{
     margin-top: 5px;
