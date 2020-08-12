@@ -12,3 +12,4 @@
 
 > Step 3
 - Use Animate.js for adding animations in containers and divisions
+- Added typed for typing effect
