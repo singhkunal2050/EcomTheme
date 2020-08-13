@@ -60,6 +60,10 @@ a:hover {
 }
 
 
+#typed{
+    min-height: 30px;
+}
+
 /* The animation code */
 
 @keyframes example {
@@ -342,7 +346,7 @@ body {
 }
 
 .banner-details{
-    background: rgb(156, 156, 156);
+    background: rgb(211, 211, 211);
     flex-grow: 1;
     display: flex;
     flex-direction: column;
